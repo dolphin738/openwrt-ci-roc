@@ -79,7 +79,7 @@ rm -rf feeds/luci/applications/luci-app-passwall
 
 # 安装passwall
 git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/passwall-packages
-git_sparse_clone https://github.com/Openwrt-Passwall/openwrt-passwall luci-app-passwall
+git_sparse_clone main https://github.com/Openwrt-Passwall/openwrt-passwall.git luci-app-passwall
 #git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall2 package/luci-app-passwall2
 #git clone --depth=1 https://github.com/vernesong/OpenClash package/luci-app-openclash
 
