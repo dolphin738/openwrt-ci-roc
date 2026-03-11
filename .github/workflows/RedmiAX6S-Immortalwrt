@@ -1,4 +1,4 @@
-name: JDCloud-ImmortalWrt
+name: RedmiAX6S-Immortalwrt
 
 on:
   workflow_dispatch:
