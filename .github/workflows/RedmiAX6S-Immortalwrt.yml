@@ -7,7 +7,7 @@ on:
   #   - cron: 0 20 * * *
 
 env:
-  REPO_URL: https://github.com/laipeng668/immortalwrt.git
+  REPO_URL: https://github.com/dolphin738/immortalwrt.git
   REPO_BRANCH: master
   CONFIG_FILE: configs/RedmiAX6S.config
   GENERAL_CONFIG_FILE: configs/General.config
@@ -15,7 +15,7 @@ env:
   CLASH_KERNEL: amd64
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: JDCloud
+  FIRMWARE_TAG: RedmiAX6S
   TZ: Asia/Shanghai
 
 jobs:
