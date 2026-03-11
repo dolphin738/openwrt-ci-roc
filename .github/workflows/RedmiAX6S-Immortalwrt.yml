@@ -186,7 +186,7 @@ jobs:
         echo "ccache: $(du -sh $OPENWRT_PATH/.ccache | cut -f 1)"
         echo "staging: $(du -sh $OPENWRT_PATH/staging_dir | cut -f 1)"
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
     - name: Delete Old Workflows(删除旧工作流)
       uses: Mattraks/delete-workflow-runs@main
