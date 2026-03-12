@@ -32,6 +32,7 @@ sed -i 's/\/bin\/ash/\/usr\/bin\/zsh/g' package/base-files/files/etc/passwd
 # 移除要替换的包
 rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/luci/applications/luci-app-argon-config
+rm -rf package/feeds/packages/onionshare-cli
 #rm -rf feeds/luci/applications/luci-app-wechatpush #通知插件
 #rm -rf feeds/luci/applications/luci-app-appfilter #家长控制插件
 #rm -rf feeds/luci/applications/luci-app-frpc
