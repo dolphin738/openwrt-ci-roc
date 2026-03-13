@@ -53,16 +53,16 @@ function git_sparse_clone() {
 }
 
 # # 添加额外插件
-git_sparse_clone main https://github.com/kiddin9/op-packages luci-app-adguardhome
-git_sparse_clone main https://github.com/kiddin9/op-packages luci-app-wrtbwmon  wrtbwmon
-git_sparse_clone main https://github.com/kiddin9/op-packages luci-app-netspeedtest
-git_sparse_clone main https://github.com/kiddin9/op-packages homebox
-git_sparse_clone main https://github.com/kiddin9/op-packages ookla-speedtest
-git_sparse_clone main https://github.com/kiddin9/op-packages luci-app-turboacc
+git_sparse_clone main https://gitee.com/dolphin738/op-packages luci-app-adguardhome
+git_sparse_clone main https://gitee.com/dolphin738/op-packages luci-app-wrtbwmon  wrtbwmon
+git_sparse_clone main https://gitee.com/dolphin738/op-packages luci-app-netspeedtest
+git_sparse_clone main https://gitee.com/dolphin738/op-packages homebox
+git_sparse_clone main https://gitee.com/dolphin738/op-packages ookla-speedtest
+git_sparse_clone main https://gitee.com/dolphin738/op-packages luci-app-turboacc
 git_sparse_clone package https://github.com/chenmozhijin/turboacc  shortcut-fe/fast-classifier shortcut-fe/shortcut-fe
-git_sparse_clone main https://github.com/kiddin9/op-packages luci-app-easytier easytier
-git_sparse_clone main https://github.com/kiddin9/op-packages luci-app-taskplan
-git_sparse_clone main https://github.com/kiddin9/op-packages luci-app-timedreboot
+git_sparse_clone main https://gitee.com/dolphin738/op-packages luci-app-easytier easytier
+git_sparse_clone main https://gitee.com/dolphin738/op-packages luci-app-taskplan
+git_sparse_clone main https://gitee.com/dolphin738/op-packages luci-app-timedreboot
 
 # 安装主题
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon feeds/luci/themes/luci-theme-argon
