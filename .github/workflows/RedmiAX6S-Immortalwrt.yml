@@ -107,10 +107,11 @@ jobs:
 
     - name: Download DL Package(下载DL软件包)
       run: |
-        cat $GENERAL_CONFIG_FILE $CONFIG_FILE > $OPENWRT_PATH/.config
+        cat $CONFIG_FILE > $OPENWRT_PATH/.config
         cd $OPENWRT_PATH
         make defconfig
         make download -j$(nproc)
+      #cat $GENERAL_CONFIG_FILE $CONFIG_FILE > $OPENWRT_PATH/.config
 
     - name: Compile Firmware(开始编译固件)
       id: compile
