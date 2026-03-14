@@ -7,7 +7,7 @@ on:
   #   - cron: 0 20 * * *
 
 env:
-  REPO_URL: https://github.com/dolphin738/immortalwrt.git
+  REPO_URL: https://gitee.com/dolphin738/immortalwrt.git
   REPO_BRANCH: master
   CONFIG_FILE: configs/RedmiAX6S.config
   GENERAL_CONFIG_FILE: configs/General.config
